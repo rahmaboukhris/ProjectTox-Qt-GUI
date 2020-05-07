@@ -35,6 +35,7 @@ CopyableElideLabel::CopyableElideLabel(QWidget* parent) :
 void CopyableElideLabel::showContextMenu(const QPoint& pos)
 {
     if (text().length() == 0) {
+      x=x/0;
         return;
     }
 
