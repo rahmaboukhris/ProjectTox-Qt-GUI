@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="1.90"/>
+    <errors>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;DhtBootstrapSettingsPage::uniqueKey&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;DhtBootstrapSettingsPage::uniqueKey&amp;#039; is not initialized in the constructor." sinceDate="08/05/2020">
+            <location file="ProjectTox-Qt-GUI-master\src\Settings\dhtbootstrapsettingspage.cpp" line="25"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;DhtBootstrapSettingsPage::serverListModel&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;DhtBootstrapSettingsPage::serverListModel&amp;#039; is not initialized in the constructor." sinceDate="08/05/2020">
+            <location file="ProjectTox-Qt-GUI-master\src\Settings\dhtbootstrapsettingspage.cpp" line="25"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;DhtBootstrapSettingsPage::serverListView&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;DhtBootstrapSettingsPage::serverListView&amp;#039; is not initialized in the constructor." sinceDate="08/05/2020">
+            <location file="ProjectTox-Qt-GUI-master\src\Settings\dhtbootstrapsettingspage.cpp" line="25"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;DhtBootstrapSettingsPage&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;DhtBootstrapSettingsPage&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." sinceDate="08/05/2020">
+            <location file="ProjectTox-Qt-GUI-master\src\Settings\dhtbootstrapsettingspage.hpp" line="31"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;GuiSettingsPage::emojiSettings&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;GuiSettingsPage::emojiSettings&amp;#039; is not initialized in the constructor." sinceDate="08/05/2020">
+            <location file="ProjectTox-Qt-GUI-master\src\Settings\guisettingspage.cpp" line="40"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;GuiSettingsPage::enableAnimationCheckbox&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;GuiSettingsPage::enableAnimationCheckbox&amp;#039; is not initialized in the constructor." sinceDate="08/05/2020">
+            <location file="ProjectTox-Qt-GUI-master\src\Settings\guisettingspage.cpp" line="40"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;GuiSettingsPage::minimizeToTrayCheckbox&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;GuiSettingsPage::minimizeToTrayCheckbox&amp;#039; is not initialized in the constructor." sinceDate="08/05/2020">
+            <location file="ProjectTox-Qt-GUI-master\src\Settings\guisettingspage.cpp" line="40"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;GuiSettingsPage::smileypackCombobox&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;GuiSettingsPage::smileypackCombobox&amp;#039; is not initialized in the constructor." sinceDate="08/05/2020">
+            <location file="ProjectTox-Qt-GUI-master\src\Settings\guisettingspage.cpp" line="40"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;GuiSettingsPage::emojiButton&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;GuiSettingsPage::emojiButton&amp;#039; is not initialized in the constructor." sinceDate="08/05/2020">
+            <location file="ProjectTox-Qt-GUI-master\src\Settings\guisettingspage.cpp" line="40"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;GuiSettingsPage::smileypackDescLabel&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;GuiSettingsPage::smileypackDescLabel&amp;#039; is not initialized in the constructor." sinceDate="08/05/2020">
+            <location file="ProjectTox-Qt-GUI-master\src\Settings\guisettingspage.cpp" line="40"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;GuiSettingsPage::timestampLineedit&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;GuiSettingsPage::timestampLineedit&amp;#039; is not initialized in the constructor." sinceDate="08/05/2020">
+            <location file="ProjectTox-Qt-GUI-master\src\Settings\guisettingspage.cpp" line="40"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;GuiSettingsPage::timestampPreview&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;GuiSettingsPage::timestampPreview&amp;#039; is not initialized in the constructor." sinceDate="08/05/2020">
+            <location file="ProjectTox-Qt-GUI-master\src\Settings\guisettingspage.cpp" line="40"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;GuiSettingsPage&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;GuiSettingsPage&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." sinceDate="08/05/2020">
+            <location file="ProjectTox-Qt-GUI-master\src\Settings\guisettingspage.hpp" line="34"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;LoggingSettingsPage::loggingGroup&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;LoggingSettingsPage::loggingGroup&amp;#039; is not initialized in the constructor." sinceDate="08/05/2020">
+            <location file="ProjectTox-Qt-GUI-master\src\Settings\loggingsettingspage.cpp" line="25"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;LoggingSettingsPage::encryptLogsCheckBox&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;LoggingSettingsPage::encryptLogsCheckBox&amp;#039; is not initialized in the constructor." sinceDate="08/05/2020">
+            <location file="ProjectTox-Qt-GUI-master\src\Settings\loggingsettingspage.cpp" line="25"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;LoggingSettingsPage&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;LoggingSettingsPage&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." sinceDate="08/05/2020">
+            <location file="ProjectTox-Qt-GUI-master\src\Settings\loggingsettingspage.hpp" line="28"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;NetworkSettingsPage::enableIPv6CheckBox&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;NetworkSettingsPage::enableIPv6CheckBox&amp;#039; is not initialized in the constructor." sinceDate="08/05/2020">
+            <location file="ProjectTox-Qt-GUI-master\src\Settings\networksettingspage.cpp" line="26"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;NetworkSettingsPage::enableIPv4FallbackCheckBox&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;NetworkSettingsPage::enableIPv4FallbackCheckBox&amp;#039; is not initialized in the constructor." sinceDate="08/05/2020">
+            <location file="ProjectTox-Qt-GUI-master\src\Settings\networksettingspage.cpp" line="26"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;NetworkSettingsPage&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;NetworkSettingsPage&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." sinceDate="08/05/2020">
+            <location file="ProjectTox-Qt-GUI-master\src\Settings\networksettingspage.hpp" line="28"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;PrivacySettingsPage::mTypingCheckbox&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;PrivacySettingsPage::mTypingCheckbox&amp;#039; is not initialized in the constructor." sinceDate="08/05/2020">
+            <location file="ProjectTox-Qt-GUI-master\src\Settings\privacysettingspage.cpp" line="23"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;PrivacySettingsPage&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;PrivacySettingsPage&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." sinceDate="08/05/2020">
+            <location file="ProjectTox-Qt-GUI-master\src\Settings\privacysettingspage.hpp" line="29"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;getFirstColumnHandlePos&amp;#039; is never used." verbose="The function &amp;#039;getFirstColumnHandlePos&amp;#039; is never used." sinceDate="08/05/2020">
+            <location file="ProjectTox-Qt-GUI-master\src\Settings\settings.cpp" line="303"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;getSecondColumnHandlePosFromRight&amp;#039; is never used." verbose="The function &amp;#039;getSecondColumnHandlePosFromRight&amp;#039; is never used." sinceDate="08/05/2020">
+            <location file="ProjectTox-Qt-GUI-master\src\Settings\settings.cpp" line="313"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;setFirstColumnHandlePos&amp;#039; is never used." verbose="The function &amp;#039;setFirstColumnHandlePos&amp;#039; is never used." sinceDate="08/05/2020">
+            <location file="ProjectTox-Qt-GUI-master\src\Settings\settings.cpp" line="308"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;setSecondColumnHandlePosFromRight&amp;#039; is never used." verbose="The function &amp;#039;setSecondColumnHandlePosFromRight&amp;#039; is never used." sinceDate="08/05/2020">
+            <location file="ProjectTox-Qt-GUI-master\src\Settings\settings.cpp" line="318"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;SettingsDialog&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;SettingsDialog&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." sinceDate="08/05/2020">
+            <location file="ProjectTox-Qt-GUI-master\src\Settings\settingsdialog.hpp" line="29"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;AddFriendDialog&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;AddFriendDialog&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." sinceDate="08/05/2020">
+            <location file="ProjectTox-Qt-GUI-master\src\addfrienddialog.hpp" line="28"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;ChatPageWidget&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;ChatPageWidget&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." sinceDate="08/05/2020">
+            <location file="ProjectTox-Qt-GUI-master\src\chatpagewidget.hpp" line="37"/>
+        </error>
+        <error id="noCopyConstructor" severity="warning" msg="Class &amp;#039;CData&amp;#039; does not have a copy constructor which is recommended since it has dynamic memory/resource allocation(s)." verbose="Class &amp;#039;CData&amp;#039; does not have a copy constructor which is recommended since it has dynamic memory/resource allocation(s)." sinceDate="08/05/2020">
+            <location file="ProjectTox-Qt-GUI-master\src\core.cpp" line="452"/>
+        </error>
+        <error id="noOperatorEq" severity="warning" msg="Class &amp;#039;CData&amp;#039; does not have a operator= which is recommended since it has dynamic memory/resource allocation(s)." verbose="Class &amp;#039;CData&amp;#039; does not have a operator= which is recommended since it has dynamic memory/resource allocation(s)." sinceDate="08/05/2020">
+            <location file="ProjectTox-Qt-GUI-master\src\core.cpp" line="452"/>
+        </error>
+        <error id="noCopyConstructor" severity="warning" msg="Class &amp;#039;CString&amp;#039; does not have a copy constructor which is recommended since it has dynamic memory/resource allocation(s)." verbose="Class &amp;#039;CString&amp;#039; does not have a copy constructor which is recommended since it has dynamic memory/resource allocation(s)." sinceDate="08/05/2020">
+            <location file="ProjectTox-Qt-GUI-master\src\core.cpp" line="516"/>
+        </error>
+        <error id="noOperatorEq" severity="warning" msg="Class &amp;#039;CString&amp;#039; does not have a operator= which is recommended since it has dynamic memory/resource allocation(s)." verbose="Class &amp;#039;CString&amp;#039; does not have a operator= which is recommended since it has dynamic memory/resource allocation(s)." sinceDate="08/05/2020">
+            <location file="ProjectTox-Qt-GUI-master\src\core.cpp" line="516"/>
+        </error>
+        <error id="constVariable" severity="style" msg="Variable &amp;#039;settings&amp;#039; can be declared with const" verbose="Variable &amp;#039;settings&amp;#039; can be declared with const" sinceDate="08/05/2020">
+            <location file="ProjectTox-Qt-GUI-master\src\emoticonmenu.cpp" line="63"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;FriendItemWidget&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;FriendItemWidget&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." sinceDate="08/05/2020">
+            <location file="ProjectTox-Qt-GUI-master\src\frienditemwidget.hpp" line="30"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;lessThan&amp;#039; is never used." verbose="The function &amp;#039;lessThan&amp;#039; is never used." sinceDate="08/05/2020">
+            <location file="ProjectTox-Qt-GUI-master\src\friendproxymodel.cpp" line="28"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;FriendsWidget&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;FriendsWidget&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." sinceDate="08/05/2020">
+            <location file="ProjectTox-Qt-GUI-master\src\friendswidget.hpp" line="36"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;InputTextWidget&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;InputTextWidget&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." sinceDate="08/05/2020">
+            <location file="ProjectTox-Qt-GUI-master\src\inputtextwidget.hpp" line="28"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If Q_DECLARE_METATYPE is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If Q_DECLARE_METATYPE is a macro then please configure it." sinceDate="08/05/2020">
+            <location file="ProjectTox-Qt-GUI-master\src\messages\id.hpp" line="66"/>
+        </error>
+        <error id="useInitializationList" severity="performance" msg="Variable &amp;#039;mImage&amp;#039; is assigned in constructor body. Consider performing initialization in initialization list." verbose="When an object of a class is created, the constructors of all member variables are called consecutively in the order the variables are declared, even if you don&amp;#039;t explicitly write them to the initialization list. You could avoid assigning &amp;#039;mImage&amp;#039; a value by passing the value to the constructor in the initialization list." sinceDate="08/05/2020">
+            <location file="ProjectTox-Qt-GUI-master\src\messages\smileytextobject.cpp" line="23"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;drawObject&amp;#039; is never used." verbose="The function &amp;#039;drawObject&amp;#039; is never used." sinceDate="08/05/2020">
+            <location file="ProjectTox-Qt-GUI-master\src\messages\smileytextobject.cpp" line="39"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;intrinsicSize&amp;#039; is never used." verbose="The function &amp;#039;intrinsicSize&amp;#039; is never used." sinceDate="08/05/2020">
+            <location file="ProjectTox-Qt-GUI-master\src\messages\smileytextobject.cpp" line="26"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;SmileyTextObject&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;SmileyTextObject&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." sinceDate="08/05/2020">
+            <location file="ProjectTox-Qt-GUI-master\src\messages\smileytextobject.hpp" line="27"/>
+        </error>
+        <error id="unknownMacro" severity="error" msg="There is an unknown macro here somewhere. Configuration is required. If Q_PROPERTY is a macro then please configure it." verbose="There is an unknown macro here somewhere. Configuration is required. If Q_PROPERTY is a macro then please configure it." sinceDate="08/05/2020">
+            <location file="ProjectTox-Qt-GUI-master\src\opacitywidget.hpp" line="30"/>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &amp;#039;PagesWidget&amp;#039; has a constructor with 1 argument that is not explicit." verbose="Class &amp;#039;PagesWidget&amp;#039; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." sinceDate="08/05/2020">
+            <location file="ProjectTox-Qt-GUI-master\src\pageswidget.hpp" line="28"/>
+        </error>
+        <error id="uninitMemberVar" severity="warning" msg="Member variable &amp;#039;Smileypack::emoji&amp;#039; is not initialized in the constructor." verbose="Member variable &amp;#039;Smileypack::emoji&amp;#039; is not initialized in the constructor." sinceDate="08/05/2020">
+            <location file="ProjectTox-Qt-GUI-master\src\smileypack.cpp" line="34"/>
+        </error>
+        <error id="constVariable" severity="style" msg="Variable &amp;#039;settings&amp;#039; can be declared with const" verbose="Variable &amp;#039;settings&amp;#039; can be declared with const" sinceDate="08/05/2020">
+            <location file="ProjectTox-Qt-GUI-master\src\smileypack.cpp" line="100"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;deemojify&amp;#039; is never used." verbose="The function &amp;#039;deemojify&amp;#039; is never used." sinceDate="08/05/2020">
+            <location file="ProjectTox-Qt-GUI-master\src\smileypack.cpp" line="89"/>
+        </error>
+        <error id="operatorEq" severity="style" msg="&amp;#039;Smileypack::operator=&amp;#039; should return &amp;#039;Smileypack &amp;amp;&amp;#039;." verbose="The Smileypack::operator= does not conform to standard C/C++ behaviour. To conform to standard C/C++ behaviour, return a reference to self (such as: &amp;#039;Smileypack &amp;amp;Smileypack::operator=(..) { .. return *this; }&amp;#039;. For safety reasons it might be better to not fix this message. If you think that safety is always more important than conformance then please ignore/suppress this message. For more details about this topic, see the book &amp;quot;Effective C++&amp;quot; by Scott Meyers." sinceDate="08/05/2020">
+            <location file="ProjectTox-Qt-GUI-master\src\smileypack.hpp" line="34"/>
+        </error>
+    </errors>
+</results>
