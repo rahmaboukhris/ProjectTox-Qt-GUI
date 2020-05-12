@@ -19,10 +19,10 @@ addons:
 script:
   # Execute Go Meta Linter
   - $GOPATH/bin/gometalinter.v2 samples/ > gometalinter-report.out || true
-  - build-wrapper-linux-x86-64 --out-dir bw-output
+  - build-wrapper-linux-x86-64 --out-dir /bin make clean all
   # Execute tests and coverage
   # And then execute SonarCloud analysis which will run its own code analysis, and also reuse the linters' results
-  - sonar-scanner/bin/sonar-scanner -Dsonar.organization=rahmaboukhris -Dsonar.projectKey=testmanual -Dsonar.projectName=testmanual -Dsonar.cfamily.build-wrapper-output=bw-output
+  - sonar-scanner/bin/sonar-scanner -Dsonar.organization=rahmaboukhris -Dsonar.projectKey=testmanual -Dsonar.projectName=testmanual -Dsonar.cfamily.build-wrapper-output=/bin
 
 cache:
   directories:
