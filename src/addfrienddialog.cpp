@@ -18,8 +18,6 @@
 #include "customhinttextedit.hpp"
 
 
-#include <QGridLayout>
-#include <QGroupBox>
 #include <QLabel>
 #include <QMessageBox>
 #include <QPushButton>
