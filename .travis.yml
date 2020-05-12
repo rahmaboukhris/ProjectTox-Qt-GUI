@@ -11,7 +11,7 @@ install:
   - unzip sonar-scanner-cli-4.2.0.1873-linux.zip 
   - rm sonar-scanner-cli-4.2.0.1873-linux.zip 
   - mv sonar-scanner-4.2.0.1873-linux sonar-scanner 
-  - wget https://sonarqube.com/static/cpp/build-wrapper-linux-x86.zip
+  - wget https://sonarcloud.io/static/cpp/build-wrapper-linux-x86.zip
   - unzip build-wrapper-linux-x86.zip
  
 addons:
