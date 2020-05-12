@@ -24,7 +24,7 @@ addons:
 script:
   # Execute Go Meta Linter
   - $GOPATH/bin/gometalinter.v2 samples/ > gometalinter-report.out || true
-  - build-wrapper/bin/build-wrapper-win-x86–64 --out-dir bw_output make -f .wrmakefile
+  - build-wrapper/bin/build-wrapper-linux-x86-64 --out-dir bw_output make -f .wrmakefile
   # Execute tests and coverage
   # And then execute SonarCloud analysis which will run its own code analysis, and also reuse the linters' results
   - sonar-scanner/bin/sonar-scanner -Dsonar.organization=rahmaboukhris -Dsonar.projectKey=testmanual -Dsonar.projectName=testmanual -Dsonar.cfamily.build-wrapper-output=bw_output
