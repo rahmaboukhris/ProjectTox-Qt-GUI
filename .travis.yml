@@ -30,7 +30,7 @@ script:
   - cmake ..
   - cd ..
   # Wraps the compilation with the Build Wrapper to generate configuration (used
-  - build-wrapper/build-wrapper-linux-x86-64 --out-dir bw-output cmake --build build/
+ - build-wrapper-linux-x86-64 --out-dir bw-output cmake --build build/
   # Execute tests and coverage
   # And then execute SonarCloud analysis which will run its own code analysis, and also reuse the linters' results
    
